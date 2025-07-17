@@ -1,6 +1,6 @@
 # Hito 7 Landing Page
 
-Esta página web presenta de manera resumida la identidad de marca **Hito 7**. Se basa en el Manual de Marca incluido en el repositorio y muestra los valores, misión y colores corporativos.
+Esta página web presenta de manera resumida la identidad de marca **Hito 7**. Se basa en el Manual de Marca incluido en el repositorio y resume misión, servicios, valores y colores corporativos.
 
 ## Uso
 1. Clona este repositorio y abre `index.html` para ver la página localmente.
@@ -13,6 +13,8 @@ Esta página web presenta de manera resumida la identidad de marca **Hito 7**. S
 - `css/styles.css` – Estilos.
 - `js/script.js` – Código JavaScript mínimo.
 - `images/` y `docs/*.jpg` – Recursos gráficos.
+
+El sitio incluye secciones de misión, servicios, valores, preguntas frecuentes y un formulario de contacto básico. Consulta el manual si necesitas aplicar la marca en otras piezas.
 
 ## Créditos
 El manual de marca y los recursos gráficos pertenecen a **Hito 7**.

@@ -1,8 +1,16 @@
+:root {
+    --color-primario: #02803B;
+    --color-refuerzo: #7ABC40;
+    --color-acento: #004F83;
+    --color-texto: #333;
+    --color-claro: #F3F3F3;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: var(--color-texto);
 }
 
 .hero {
@@ -26,7 +34,7 @@ body {
 }
 
 .button {
-    background-color: #02803B;
+    background-color: var(--color-primario);
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -35,7 +43,7 @@ body {
 }
 
 .button:hover {
-    background-color: #004F83;
+    background-color: var(--color-acento);
 }
 
 section {
@@ -45,7 +53,7 @@ section {
 }
 
 section h2 {
-    color: #02803B;
+    color: var(--color-primario);
 }
 
 .values ul {
@@ -90,6 +98,38 @@ section h2 {
     width: 100%;
     max-width: 300px;
     border-radius: 4px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card {
+    background: var(--color-refuerzo);
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font: inherit;
 }
 
 footer {
