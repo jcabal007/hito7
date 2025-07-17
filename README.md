@@ -14,7 +14,7 @@ Esta página web presenta de manera resumida la identidad de marca **Hito 7**. S
 - `js/script.js` – Código JavaScript mínimo.
 - `images/` y `docs/*.jpg` – Recursos gráficos.
 
-El sitio incluye secciones de misión, servicios, valores, preguntas frecuentes y un formulario de contacto básico. Consulta el manual si necesitas aplicar la marca en otras piezas.
+El sitio incluye navegación interna, misión, servicios, valores, testimonios, paleta de color, galería y un formulario de contacto. Consulta el manual si necesitas aplicar la marca en otras piezas.
 
 ## Créditos
 El manual de marca y los recursos gráficos pertenecen a **Hito 7**.

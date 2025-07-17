@@ -22,6 +22,23 @@ body {
     padding: 120px 20px;
 }
 
+.navbar ul {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
 .hero h1 {
     font-size: 3em;
     margin: 0 0 20px;
@@ -130,6 +147,16 @@ section h2 {
     border: 1px solid #ccc;
     border-radius: 4px;
     font: inherit;
+}
+
+.testimonials {
+    background: var(--color-claro);
+    padding: 40px 20px;
+}
+
+.testimonials blockquote {
+    margin: 0 0 15px;
+    font-style: italic;
 }
 
 footer {
