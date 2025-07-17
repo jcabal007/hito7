@@ -1,16 +1,23 @@
 :root {
-    --color-primario: #02803B;
-    --color-refuerzo: #7ABC40;
-    --color-acento: #004F83;
-    --color-texto: #333;
-    --color-claro: #F3F3F3;
+    --color-primary: #02803B;  /* verde manzana */
+    --color-accent:  #4FA03C;  /* verde lima */
+    --color-support: #004F83;  /* azul de refuerzo */
+    --color-support-light: #7ABC40;
+    --color-neutral-0: #ffffff;
+    --color-neutral-10: #F3F3F3;
+    --color-text: #333;
+    --logo-x: 0.5rem;
 }
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Proxima Nova', Arial, sans-serif;
     line-height: 1.6;
-    color: var(--color-texto);
+    color: var(--color-text);
+}
+
+h1, h2, h3 {
+    font-family: 'Routine', 'Proxima Nova', sans-serif;
 }
 
 .hero {
@@ -51,7 +58,7 @@ body {
 }
 
 .button {
-    background-color: var(--color-primario);
+    background-color: var(--color-primary);
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -60,7 +67,7 @@ body {
 }
 
 .button:hover {
-    background-color: var(--color-acento);
+    background-color: var(--color-accent);
 }
 
 section {
@@ -70,7 +77,7 @@ section {
 }
 
 section h2 {
-    color: var(--color-primario);
+    color: var(--color-primary);
 }
 
 .values ul {
@@ -125,7 +132,7 @@ section h2 {
 }
 
 .card {
-    background: var(--color-refuerzo);
+    background: var(--color-support-light);
     color: #fff;
     padding: 15px;
     border-radius: 4px;
@@ -150,7 +157,7 @@ section h2 {
 }
 
 .testimonials {
-    background: var(--color-claro);
+    background: var(--color-neutral-10);
     padding: 40px 20px;
 }
 
@@ -172,5 +179,29 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.brand-logo {
+    display: inline-block;
+    padding: var(--logo-x);
+    max-width: 160px;
+}
+
+.kpis {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.kpi {
+    text-align: center;
+}
+
+.kpi .number {
+    font-size: 2rem;
+    color: var(--color-accent);
+    font-weight: bold;
 }
 
